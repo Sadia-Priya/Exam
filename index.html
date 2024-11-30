@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Eschool">
+	<meta name="description" content="Site Description">
+	<meta name="keywords" content="blog">
+	<meta name="robots" content="index,follow">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="7 days">
+	<meta name="author" content="Sadia Islam Khan">
+	<title>FoodWagon</title>
+  <link rel="stylesheet" type="text/css" href="assets/7-s/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+  <!-- header start -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="foodwagon">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_c" aria-controls="nav_c" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse menu" id="nav_c">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!--item start-->
+                <li class="nav-item">
+                  <a class="nav-link active deliver" aria-current="page" href=""><span class="h_p">Deliver to: </span><img src="images/map.png" alt="foodwagon"> <span class="sp">Current Location</span> <span class="sp1">Mohammadpur Bus Stand, Dhaka</span></a>
+                </li>           
+            </ul>
+             <!-- search start -->
+            <!-- <div class="dropdown">
+              <a class="btn btn_search dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-magnifying-glass col"></i>
+                <p class="sr">Search Food</p>
+              </a>
+
+
+
+              <ul class="dropdown-menu btn_dd">
+                <form action="#">
+                  <div class="row g-2">
+                  <div class="col-11">
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="col-1">
+                    <button type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                </div>
+                </form>
+              </ul>
+            </div> -->
+            <!-- search end -->
+
+
+             <!--search start-->
+              <!-- Button trigger modal -->
+                  <button type="button" class="btn btn_1" data-bs-toggle="modal" data-bs-target="#mod_1">
+                    <i class="fa-solid fa-magnifying-glass col"></i>
+                    <p class="sr">Search Food</p>
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="mod_1" tabindex="-1" aria-labelledby="mod_1Label" aria-hidden="true">
+                    <div class="modal-dialog m">
+                      <div class="modal-content m_dia">
+                        <div class="modal-body">
+                          <form action="#">
+                            <div class="row">
+                              <div class="col-10">
+                                <input type="text" class="form-control dp_input m-0" placeholder="Search Here">
+                              </div>
+                              <div class="col-2">
+                               <button type="submit" class="btn btn_2">
+                                 <i class="fa-solid fa-magnifying-glass col"></i>
+                               </button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn_sub">SUBMIT</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+              <!--search end-->
+
+
+
+            <a class="btn" href="#" role="button">
+            <button type="submit" class="btn_login">
+              
+              <img src="images/user.png" alt="foodwagon"> Login
+            </button>
+              </a>
+          </div>
+        </div>
+      </nav>      
+    </div>
+  </header>
+  <!-- <header end -->
+
+  <!-- banner start   -->
+  <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="row">
+            <div class="col-lg-11">
+              <h1 class="b_h1">Are you starving?</h1>
+                <p>Within a few clicks, find meals that are accessible near you</p>
+
+                <div class="card text-center">
+    <div class="card-header">
+      <ul class="nav  card-header-pills">
+        <li class="nav-item bgc_nav">
+         <a class="nav-link active" href="#" ><img src="images/bike.png" alt="foodwagon"><span class="colr" >Delivery</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="images/pick.png" class="colr" alt="foodwagon"><span class="colr" >Pickup</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card-body">
+      <form class="row row-cols-lg-auto g-3 align-items-center">
+        <div class="col-lg-8">
+          <div class="input-group">
+            <div class="input-group-text"><img src="images/loc.png" alt="foodwagon"></div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Enter Your address">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <a href="#"><button type="submit" class=" btn_find"><img src="images/f.png"> Find Food</button></a>
+        </div>
+      </form>
+    </div>
+  </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="  col-lg-4">
+          <img src="images/bowl.png" alt="foodwagon" class="w-100 b_i">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner end -->
+  
+  <!-- food section start -->
+  <section class="food">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/food1.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_p1">Greys Vage</p>
+             <button type="submit" class="sf_p bgc_p">6 Days Remaining</button>
+          </div>  
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/food2.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_p1">Greys Vage</p>
+             <button type="submit" class="sf_p bgc_p">6 Days Remaining</button>
+          </div>  
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/food3.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_p1">Greys Vage</p>
+             <button type="submit" class="sf_p bgc_p">6 Days Remaining</button>
+          </div>  
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/food4.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_p1">Greys Vage</p>
+            <button type="submit" class="sf_p bgc_p">6 Days Remaining</button>
+          </div>  
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- food section end -->
+
+  <!-- work start -->
+  <section class="work">
+    <div class="container">
+      <h1 class="w_h1">How does it work</h1>
+      <div class="row">
+
+        <!-- single item start -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="w_item text-center">
+            <div class="sf_img m-auto">
+              <img src="images/w1.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="w_p">Select location</h2>
+            <p class="w_p1">Choose the location where your food will be delivered.</p>
+          </div>  
+        </div>
+        <!-- single item end -->
+        <!-- single item start -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="w_item text-center">
+            <div class="sf_img m-auto">
+              <img src="images/w2.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="w_p">Choose order</p>
+            <p class="w_p1">Check over hundreds of menus to pick your favorite food</p>
+          </div>  
+        </div>
+        <!-- single item end -->
+        <!-- single item start -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="w_item text-center">
+            <div class="sf_img m-auto">
+              <img src="images/w3.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="w_p">Pay advanced</p>
+            <p class="w_p1">It's quick, safe, and simple. Select several methods of payment</p>
+          </div>  
+        </div>
+        <!-- single item end -->
+        <!-- single item start -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="w_item text-center">
+            <div class="sf_img m-auto">
+              <img src="images/w4.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="w_p">Enjoy meals</p>
+            <p class="w_p1">Food is made and delivered directly to your home.</p>
+          </div>  
+        </div>
+        <!-- single item end -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- work end -->
+ 
+
+ <!-- popular start -->
+ <section class="popular">
+  <div class="container">
+    <h1 class="p_h1 text-center">Popular items</h1>
+   <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-lg">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/p1.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_pop">Cheese Burger</p>
+            <img src="images/map.png" alt="foodwagon"> <span class="spop">Burger Arena</span>
+            <p class="sp1">$3.88</p>
+            <a href="#"><button type="submit" class="btn_order">Order Now</button></a>
+          </div>  
+        </div>
+
+        <div class="col-lg">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/p2.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_pop">Toffe’s Cake</p>
+            <img src="images/map.png" alt="foodwagon"> <span class="spop">Top Sticks</span>
+            <p class="sp1">$4</p>
+            <a href="#"><button type="submit" class="btn_order">Order Now</button></a>
+          </div>  
+        </div>
+
+        <div class="col-lg">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/p3.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_pop">Dancake</p>
+            <img src="images/map.png" alt="foodwagon"> <span class="spop">Cake World</span>
+            <p class="sp1">$1.99</p>
+            <a href="#"><button type="submit" class="btn_order">Order Now</button></a>
+          </div>  
+        </div>
+
+        <div class="col-lg">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/p4.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_pop">Crispy Sandwitch</p>
+            <img src="images/map.png" alt="foodwagon"> <span class="spop">Fastfood Dine</span>
+            <p class="sp1">$3</p>
+            <a href="#"><button type="submit" class="btn_order">Order Now</button></a>
+          </div>  
+        </div>
+
+        <div class="col-lg">
+          <div class="sf_item">
+            <div class="sf_img m-auto">
+              <img src="images/p5.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="sf_pop">Thai  Soup</p>
+            <img src="images/map.png" alt="foodwagon"> <span class="spop">Foodie Man</span>
+            <p class="sp1">$2.79</p>
+            <a href="#"><button type="submit" class="btn_order">Order Now</button></a>
+          </div>  
+        </div>
+
+      </div>
+
+      <!-- <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div> -->
+  
+    </div>
+  </div>
+ </section>
+
+ <!-- popular end -->
+
+ <!-- feature start -->
+  <section class="feature">
+  <div class="container">
+    <h1 class="p_h1 text-center">Featured Restaurants</h1>
+    <div class="row">
+        <div class="col-lg-3">
+          <div class="sf_f ">
+            <div class="sf_img m-auto">
+              <img src="images/f1.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <img src="images/l1.png" class="f_l"><span class="fea_p">Foodworld</span>
+            <button type="button" class="btn_open">Opens Tommorrow</button>
+          </div>  
+        </div>
+
+        <div class="col-lg-3">
+          <div class="sf_f">
+            <div class="sf_img m-auto">
+              <img src="images/f2.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <img src="images/l2.png" class="f_l"><span class="fea_p">Pizzahub</span>
+            <button type="button" class="btn_open">Opens Tommorrow</button>
+          </div>  
+        </div>
+
+        <div class="col-lg-3">
+          <div class="sf_f">
+            <div class="sf_img m-auto">
+              <img src="images/f3.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <img src="images/l3.png" class="f_l"><span class="fea_p">Donuts hut</span>
+            <button type="button" class="btn_now">Open Now</button>
+          </div>  
+        </div>
+
+        <div class="col-lg-3">
+          <div class="sf_f">
+            <div class="sf_img m-auto">
+              <img src="images/f4.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <img src="images/l4.png" class="f_l"><span class="fea_p">Donuts hut</span>
+            <button type="button" class="btn_now">Open Now</button>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="sf_f">
+            <div class="sf_img m-auto">
+              <img src="images/f5.png" class="img-fluid f_i" alt="foodwagon">
+            </div>
+            <img src="images/l5.png" class="f_l"><span class="fea_p">Ruby Tuesday</span>
+            <button type="button" class="btn_now">Open Now</button>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="sf_f">
+            <div class="sf_img m-auto">
+              <img src="images/f6.png" class="img-fluid f_i" alt="foodwagon">
+            </div>
+            <img src="images/l6.png" class="f_l"><span class="fea_p">Kuakata Fried Chicken</span>
+            <button type="button" class="btn_now">Open Now</button>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="sf_f">
+            <div class="sf_img m-auto">
+              <img src="images/f7.png" class="img-fluid f_i" alt="foodwagon">
+            </div>
+            <img src="images/l7.png" class="f_l"><span class="fea_p">Red Square</span>
+            <button type="button" class="btn_now">Open Now</button>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="sf_f">
+            <div class="sf_img m-auto">
+              <img src="images/f8.png" class="img-fluid f_i" alt="foodwagon">
+            </div>
+            <img src="images/l8.png" class="f_l"><span class="fea_p">Taco Bell</span>
+            <button type="button" class="btn_now">Open Now</button>
+          </div>  
+        </div>
+
+      </div>
+    </div>
+    <a href="#"><button type="submit" class="view">View All<span >  ></span></button></a>
+      
+  </div>
+ </section>
+<!-- feature end -->
+
+<!-- search food start -->
+<section class="search">
+  <div class="container">
+    <h1 class="sea_h1">Search by Food</h1>
+    <div class="row">
+        <div class="col-lg-2">
+          <div class="sf_f hov">
+            <div class="sf_img m-auto">
+              <img src="images/s1.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="text-center sea_p">Pizza</p>          
+          </div>  
+        </div>
+
+        <div class="col-lg-2">
+          <div class="sf_f hov">
+            <div class="sf_img m-auto">
+              <img src="images/s2.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="text-center sea_p">Burger</p>
+          </div>  
+        </div>
+
+        <div class="col-lg-2">
+          <div class="sf_f hov">
+            <div class="sf_img m-auto">
+              <img src="images/s3.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="text-center sea_p">Noodles</p>
+          </div>  
+        </div>
+
+        <div class="col-lg-2">
+          <div class="sf_f hov">
+            <div class="sf_img m-auto">
+              <img src="images/s4.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="text-center sea_p">Sub-sandiwch</p>
+          </div>  
+        </div>
+        <div class="col-lg-2">
+          <div class="sf_f hov">
+            <div class="sf_img m-auto">
+              <img src="images/s5.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="text-center sea_p">Chowmein</p>
+          </div>  
+        </div>
+        <div class="col-lg-2">
+          <div class="sf_f hov">
+            <div class="sf_img m-auto">
+              <img src="images/s6.png" class="img-fluid" alt="foodwagon">
+            </div>
+            <p class="text-center sea_p">Steak</p>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- search food end -->
+<!-- card start -->
+<section class="card">
+  <div class="container">
+    <div class="card-group mar">
+      <div class="card bgc_card">
+        <div class="card-body">
+
+          <img src="images/c1.png" alt="foodwagon"><span class="c_h1">Daily Discounts</span>
+        </div>
+    
+      </div>
+      <div class="card bgc_card">
+        <div class="card-body">
+          <img src="images/c2.png" alt="foodwagon"><span class="c_h1">Live Tracing</span>
+        </div>
+      </div>
+      <div class="card bgc_card">
+        <div class="card-body">
+          <img src="images/c3.png" alt="foodwagon"><span class="c_h1">Quick Delivery</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- card end -->
+<!-- install start  -->
+<section class="install">
+  <div class="container">
+    <div class="row">
+        
+      <div class="col-lg-7"></div>
+      <div class=" col-lg-4">
+        <div class="ins"><h1 class="ins_h1">Install the app</h1>
+        <p class="ins_p">It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p>
+        <a href="#"><button type="button" class="btn_gp">
+          <div class="row">
+            <div class="col-lg-3"><img src="images/gp.png"></div>
+            <div class="col-lg-9 get">GET IT ON</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-9 gp">Google Play</div>
+          </div></button>
+        </a>
+        <a href="#"><button type="button" class="btn_gp">
+          <div class="row">
+            <div class="col-lg-3"><img src="images/apple.png"></div>
+            <div class="col-lg-9 get">Download on the</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-9 gp">App Store</div>
+          </div></button>
+        </a></div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<!-- install end -->
+
+<!-- card2 start -->
+<section class="card2">
+  <div class="container">
+    <div class="card mb-3 c_gap">
+      <div class="row g-0">
+        <div class="col-md-4 c_b">
+          <div class="card-body">
+            <h5 class="card-title c_h">Best deals <span class="c_clr">Crispy Sandwiches</span></h5>
+            <p class="card-text c_p">Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</p>
+            <a href="#"><button type="button" class="btn_pro">Proceed to order</button></a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <img src="images/c11.jpg" class="img-fluid" alt="foodwagon">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card mb-3 c_gap">
+      <div class="row g-0">
+        <div class="col-md-8">
+          <img src="images/c22.jpg" class="img-fluid" alt="foodwagon">
+        </div>
+        <div class="col-md-4 c_b">
+          <div class="card-body">
+            <h5 class="card-title c_h">Celebrate  parties with <span class="c_clr">Fried Chicken</span></h5>
+            <p class="card-text c_p">Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken.</p>
+            <a href="#"><button type="button" class="btn_pro">Proceed to order</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card mb-3 c_gap">
+      <div class="row g-0">
+        <div class="col-md-4 c_b">
+          <div class="card-body">
+            <h5 class="card-title c_h">Wanna eat hot & spicy <span class="c_clr">Pizza?</span></h5>
+            <p class="card-text c_p">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+            <a href="#"><button type="button" class="btn_pro">Proceed to order</button></a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <img src="images/c33.jpg" class="img-fluid" alt="foodwagon">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- card2 end -->
+
+<!-- ready start -->
+<section class="ready">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6">
+        <h1 class="ready_h1 text-center">Are you ready to order with the best deals?</h1>
+        <a href="#"><button type="button" class="btn_proc">Proceed to order</button></button></a>
+        <p></p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<!-- ready end -->
+
+<!-- footer top start -->
+<section class="footer_top">
+  <div class="container">
+    <p class="f_p">Our top cities</p>
+    <div class="row">
+      <div class="col-lg-2 "><a href="#" class="foot"> San Francisco</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Los Angeles</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">New York City</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">Chicago</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">Columbus</a></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-2 "><a href="#" class="foot"> Miami</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Washington DC</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Orange County</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">Phoenix</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">New Mexico</a></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-2 "><a href="#" class="foot"> San Diego</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Seattle</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Atlanta</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">Las Vegas</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">Albuquerque</a></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-2 "><a href="#" class="foot">East Bay</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Portland</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Charlotte</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">Sacramento</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">Sacramento</a></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-2 "><a href="#" class="foot">Long Beach</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Nashville</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 "><a href="#" class="foot">Denver</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">Oklahoma City</a></div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-1 "><a href="#" class="foot">New Orleans</a></div>
+    </div>
+    <hr class="h">
+
+    <div class="row">
+      <div class="col-lg-1">
+        <p class="f_p">Company</p>
+      </div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+        <p class="f_p">Contact</p>
+      </div>
+      <div class="col-lg-2">
+        <p class="f_p">Legal</p>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4">
+        <p class="f_p1"> Follow Us</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-1">
+        <a href="#" class="foot">About us</a>
+      </div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+        <a href="#" class="foot">Help & Support</a>
+      </div>
+      <div class="col-lg-2">
+        <a href="#" class="foot">Terms & Conditions</a>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4">
+        <a href="#" class="icon"><img src="images/ig.png"></a>
+        <a href="#" class="icon"><img src="images/fb.png"></a>
+        <a href="#" class="icon"><img src="images/tw.png"></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-1">
+        <a href="#" class="foot">Team</a>
+      </div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+        <a href="#" class="foot">Partner with us</a>
+      </div>
+      <div class="col-lg-2">
+        <a href="#" class="foot">Refund & Cancellation</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-1">
+        <a href="#" class="foot">Careers</a>
+      </div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+        <a href="#" class="foot">Ride with us</a>
+      </div>
+      <div class="col-lg-2">
+        <a href="#" class="foot">Privacy Policy</a>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4">
+        <p class="foot">Receive exclusive offers in your mailbox</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-1">
+        <a href="#" class="foot">Blog</a>
+      </div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+        <a href="#" class="foot">Blog</a>
+      </div>
+      <div class="col-lg-2">
+        <a href="#" class="foot">Cookie Policy</a>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4">
+        <div class="card-body">
+    <form class="row row-cols-lg-auto g-3 align-items-center">
+      <div class="col-lg-8">
+        <div class="input-group">
+          <div class="input-group-text"><img src="images/en.png" alt="foodwagon"></div>
+          <input type="email" class="form-control" id="inlineFormInputGroupUsername" placeholder="Enter Your email">
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <a href="#"><button type="submit" class="btn btn_find">Subscribe</button></a>
+      </div>
+    </form>
+  </div>
+      </div>
+    </div>
+    <hr class="h">
+
+    <div class="row">
+      <div class="col-lg-4 f_l">
+        All rights Reserved <a href="https://www.facebook.com/SadiaPriya.01/"><span class="f_s">© Sadia Islam Khan</span></a>, 2024
+      </div>
+      <div class="col-lg-4"></div>
+      <div class="col-lg-3">
+        <p class="f_l">Made with 💛 by <span class="f_s"> <a href="index.html"> Themewagon</a></span></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer top end -->
+
+<!-- Bootstrap and Font Awesome -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/8471e1572d.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/774c334e86.js" crossorigin="anonymous"></script> -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
